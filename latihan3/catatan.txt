@@ -1,0 +1,109 @@
+TEXT STYLING
+
+1. pada CSS jg bisa memberikan komentar
+    /*  ini adalah komentar pada CSS */
+2. property apa saja yg ada di text styling :
+    a. color : memberi warna pada tulisan
+    b. text-align : mengatur format paragraf / teks
+    c. text-indent : memberi indentasi pada paragraf / teks
+    d. text-decoration : mengatur dekorasi pada teks (memberi underline, dicoret, dsb)
+    e. text-transform : mengubah jenis huruf menjadi huruf besar, kecil/kapital
+    f. letter-spacing : mengatur spasi anta huruf
+    g. word-spacing : mengatur spasi antar kata
+
+    COLOR 
+        - nama warna : red,lightseagreen, royalblue, ...
+        contoh :
+        h1 {
+            font-size: 150px;
+            color: skyblue;
+        }
+        - hexadecimal : #ff0000, #20b2aa, #4169el, ...
+        contoh :
+        h1 {
+            font-size: 150px;
+            color: #ffffff;
+        }
+        - rgb : rgb(255, 0, 0), rgb(32, 178, 170), rgb(65, 105, 225), ...
+        contoh : 
+        h1 {
+            font-size: 150px;
+            color: rgb(11, 225, 100);
+        }
+    kunjungi
+        http://www.w3school.com/cssref/css_colornames.asp
+
+        www.colorpicker.com
+
+    TEXT-ALIGN
+        - left
+        - right
+        - center
+        - justify : rata kiri-kanan
+
+        contoh :
+        p {
+            text-align: center; 
+        }
+
+    TEXT-INDENT
+        - px
+        - %
+
+        contoh :
+        p {
+            text-indent: 100px; 
+        }
+
+    TEXT-DECORATION
+        - none
+        - underline
+        - overline : garisnya di atas tulisan
+        - line-through : garisnya melewati tulisannya
+
+        contoh :
+        h1 {
+            font-size: 150px;
+            color: rgb(11, 225, 100;
+            text-decoration: line-through;
+        }
+        untuk menghilangkan garis bawah pada link, contoh :
+        a {
+            text-decoration: none;
+        }
+
+    TEXT-TRANSFORM
+        - none
+        - lowercase
+        - uppercase
+        - capitalize
+
+    contoh :
+    h1 {
+        font-size: 150px;
+        color: rgb(11, 225, 100);
+        text-decoration: line-through;
+        text-transform: uppercase;
+    }
+
+    LETTER-SPACING
+        - normal
+        - px
+
+        contoh :
+        p {
+            text-indent: 100px;
+            letter-spacing: 5px;
+        }
+
+    WORD-SPACING
+        - normal
+        - px
+
+        contoh :
+        p {
+            text-indent: 100px;
+            word-spacing: 5px;
+        }
+
+
